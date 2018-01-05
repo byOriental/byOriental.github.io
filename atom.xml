@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-05T13:57:52.806Z</updated>
+  <updated>2018-01-05T16:21:16.420Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/01/05/%E6%88%91%E7%9A%84%E5%A8%98%E5%AD%90-%E5%B1%B1%E4%B8%87%E7%90%B4/"/>
     <id>http://yoursite.com/2018/01/05/我的娘子-山万琴/</id>
     <published>2018-01-05T13:45:55.000Z</published>
-    <updated>2018-01-05T13:57:52.806Z</updated>
+    <updated>2018-01-05T16:21:16.420Z</updated>
     
     <content type="html"><![CDATA[<p>我的娘子山万琴，她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的娘子，山万琴。</p><pre><code>2018/1/5 21:57——记于中国上海</code></pre>]]></content>
     
@@ -37,6 +37,18 @@
     
     </summary>
     
+      <category term="歌颂山宝宝" scheme="http://yoursite.com/categories/%E6%AD%8C%E9%A2%82%E5%B1%B1%E5%AE%9D%E5%AE%9D/"/>
+    
+    
+      <category term="美丽" scheme="http://yoursite.com/tags/%E7%BE%8E%E4%B8%BD/"/>
+    
+      <category term="自然" scheme="http://yoursite.com/tags/%E8%87%AA%E7%84%B6/"/>
+    
+      <category term="大方" scheme="http://yoursite.com/tags/%E5%A4%A7%E6%96%B9/"/>
+    
+      <category term="贤惠" scheme="http://yoursite.com/tags/%E8%B4%A4%E6%83%A0/"/>
+    
+      <category term="善良" scheme="http://yoursite.com/tags/%E5%96%84%E8%89%AF/"/>
     
   </entry>
   
