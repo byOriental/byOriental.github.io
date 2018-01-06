@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://byoriental.github.io/"/>
-  <updated>2018-01-06T12:58:55.859Z</updated>
+  <updated>2018-01-06T14:01:32.134Z</updated>
   <id>https://byoriental.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>codeTest</title>
+    <link href="https://byoriental.github.io/2018/01/06/codeTest/"/>
+    <id>https://byoriental.github.io/2018/01/06/codeTest/</id>
+    <published>2018-01-06T13:55:08.000Z</published>
+    <updated>2018-01-06T14:01:32.134Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code class="java">public static Picasso with(Context context) {        if (singleton == null) {        synchronized (Picasso.class) {            if (singleton == null) {                singleton = new Builder(context).build();                }            }            }            return singleton;      }</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre&gt;&lt;code class=&quot;java&quot;&gt;public static Picasso with(Context context) {    
+    if (singleton == null) {
+        synchronized (Picasso.class) 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Teacher</title>
