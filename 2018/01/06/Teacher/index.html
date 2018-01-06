@@ -81,16 +81,17 @@
 
 
 
-<meta name="description" content="淡泊以明志，宁静以致远">
-<meta property="og:type" content="website">
-<meta property="og:title" content="大白杨">
-<meta property="og:url" content="https://byoriental.github.io/tags/不悔/index.html">
+<meta name="description" content="package com.by.hibernate; import javax.persistence.Entity;import javax.persistence.GeneratedValue;import javax.persistence.GenerationType;import javax.persistence.Id;import javax.persistence.SequenceG">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Teacher">
+<meta property="og:url" content="https://byoriental.github.io/2018/01/06/Teacher/index.html">
 <meta property="og:site_name" content="大白杨">
-<meta property="og:description" content="淡泊以明志，宁静以致远">
+<meta property="og:description" content="package com.by.hibernate; import javax.persistence.Entity;import javax.persistence.GeneratedValue;import javax.persistence.GenerationType;import javax.persistence.Id;import javax.persistence.SequenceG">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-01-06T12:58:55.859Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="大白杨">
-<meta name="twitter:description" content="淡泊以明志，宁静以致远">
+<meta name="twitter:title" content="Teacher">
+<meta name="twitter:description" content="package com.by.hibernate; import javax.persistence.Entity;import javax.persistence.GeneratedValue;import javax.persistence.GenerationType;import javax.persistence.Id;import javax.persistence.SequenceG">
 
 
 
@@ -120,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="https://byoriental.github.io/tags/不悔/">
+  <link rel="canonical" href="https://byoriental.github.io/2018/01/06/Teacher/">
 
 
 
 
 
-  <title>标签: 不悔 | 大白杨</title>
+  <title>Teacher | 大白杨</title>
   
 
 
@@ -155,7 +156,7 @@
     
   
 
-  <div class="container sidebar-position-left">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -321,52 +322,193 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>不悔<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://byoriental.github.io/2018/01/06/Teacher/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="baiyang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/my_photo.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="大白杨">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/01/05/王国维人生中的三种境界/" itemprop="url">
-              
-                <span itemprop="name">王国维人生中的三种境界</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Teacher</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-01-05T15:09:02+08:00" content="2018-01-05">
-          01-05
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-06T20:58:44+08:00">
+                2018-01-06
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
+      
 
+      
+        <p>package com.by.hibernate;</p>
+<p>import javax.persistence.Entity;<br>import javax.persistence.GeneratedValue;<br>import javax.persistence.GenerationType;<br>import javax.persistence.Id;<br>import javax.persistence.SequenceGenerator;<br>import javax.persistence.TableGenerator;</p>
+<p>/**</p>
+<ul>
+<li></li>
+<li>@Title:Teacher</li>
+<li>@Description:// @GeneratedValue 自定义生成器,”teacherSEQ_DB”将存到数据库 ，”teacherSEQ”为引用</li>
+<li>@author:Administrator</li>
+<li><p>@date:2018年1月3日 下午3:46:29<br>*/<br>@Entity<br>@TableGenerator(name = “teacherID”, // 被调用的TABLE名字<br>table = “teacherID_DB”, // 数据库建立的表名<br>pkColumnName = “key_value”, pkColumnValue = “pk_value”, valueColumnName = “teacher”, // pkColumnValue对应类名<br>allocationSize = 1 // pkColumnValue对应类名<br>)<br>@SequenceGenerator(name = “teacherSEQ”, sequenceName = “teacherSEQ_DB”)<br>public class Teacher {<br> private int id;<br> private String name;<br> private String title;</p>
+<p> // @GeneratedValue id生成策略，相当与xml配置默认的native一样（普通）<br> // @GeneratedValue 自定义生成器<br> @Id<br> // @GeneratedValue(strategy = GenerationType.SEQUENCE, generator =<br> // “teacherSEQ”)<br> @GeneratedValue(strategy = GenerationType.TABLE, generator = “teacherID”)<br> public int getId() {</p>
+<pre><code> return id;
+</code></pre><p> }</p>
+<p> public void setId(int id) {</p>
+<pre><code> this.id = id;
+</code></pre><p> }</p>
+<p> public String getName() {</p>
+<pre><code> return name;
+</code></pre><p> }</p>
+<p> public void setName(String name) {</p>
+<pre><code> this.name = name;
+</code></pre><p> }</p>
+<p> public String getTitle() {</p>
+<pre><code> return title;
+</code></pre><p> }</p>
+<p> public void setTitle(String title) {</p>
+<pre><code> this.title = title;
+</code></pre><p> }</p>
+</li>
+</ul>
+<p>}</p>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none">
+
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/post/my_post.jpg" alt="baiyang 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/01/06/王虎是坏蛋/" rel="next" title="王虎是坏蛋">
+                <i class="fa fa-chevron-left"></i> 王虎是坏蛋
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -374,6 +516,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -604,6 +750,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

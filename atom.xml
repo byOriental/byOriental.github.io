@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://byoriental.github.io/"/>
-  <updated>2018-01-06T12:47:42.925Z</updated>
+  <updated>2018-01-06T12:58:55.859Z</updated>
   <id>https://byoriental.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Teacher</title>
+    <link href="https://byoriental.github.io/2018/01/06/Teacher/"/>
+    <id>https://byoriental.github.io/2018/01/06/Teacher/</id>
+    <published>2018-01-06T12:58:44.000Z</published>
+    <updated>2018-01-06T12:58:55.859Z</updated>
+    
+    <content type="html"><![CDATA[<p>package com.by.hibernate;</p><p>import javax.persistence.Entity;<br>import javax.persistence.GeneratedValue;<br>import javax.persistence.GenerationType;<br>import javax.persistence.Id;<br>import javax.persistence.SequenceGenerator;<br>import javax.persistence.TableGenerator;</p><p>/**</p><ul><li></li><li>@Title:Teacher</li><li>@Description:// @GeneratedValue 自定义生成器,”teacherSEQ_DB”将存到数据库 ，”teacherSEQ”为引用</li><li>@author:Administrator</li><li><p>@date:2018年1月3日 下午3:46:29<br>*/<br>@Entity<br>@TableGenerator(name = “teacherID”, // 被调用的TABLE名字<br>table = “teacherID_DB”, // 数据库建立的表名<br>pkColumnName = “key_value”, pkColumnValue = “pk_value”, valueColumnName = “teacher”, // pkColumnValue对应类名<br>allocationSize = 1 // pkColumnValue对应类名<br>)<br>@SequenceGenerator(name = “teacherSEQ”, sequenceName = “teacherSEQ_DB”)<br>public class Teacher {<br> private int id;<br> private String name;<br> private String title;</p><p> // @GeneratedValue id生成策略，相当与xml配置默认的native一样（普通）<br> // @GeneratedValue 自定义生成器<br> @Id<br> // @GeneratedValue(strategy = GenerationType.SEQUENCE, generator =<br> // “teacherSEQ”)<br> @GeneratedValue(strategy = GenerationType.TABLE, generator = “teacherID”)<br> public int getId() {</p><pre><code> return id;</code></pre><p> }</p><p> public void setId(int id) {</p><pre><code> this.id = id;</code></pre><p> }</p><p> public String getName() {</p><pre><code> return name;</code></pre><p> }</p><p> public void setName(String name) {</p><pre><code> this.name = name;</code></pre><p> }</p><p> public String getTitle() {</p><pre><code> return title;</code></pre><p> }</p><p> public void setTitle(String title) {</p><pre><code> this.title = title;</code></pre><p> }</p></li></ul><p>}</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;package com.by.hibernate;&lt;/p&gt;
+&lt;p&gt;import javax.persistence.Entity;&lt;br&gt;import javax.persistence.GeneratedValue;&lt;br&gt;import javax.persistence
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>王虎是坏蛋</title>
