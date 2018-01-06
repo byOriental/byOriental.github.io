@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[codeTest]]></title>
     <url>%2F2018%2F01%2F06%2FcodeTest%2F</url>
-    <content type="text"><![CDATA[public static Picasso with(Context context) { if (singleton == null) { synchronized (Picasso.class) { if (singleton == null) { singleton = new Builder(context).build(); } } } return singleton; }]]></content>
+    <content type="text"><![CDATA[1234567891011public static Picasso with(Context context) &#123; if (singleton == null) &#123; synchronized (Picasso.class) &#123; if (singleton == null) &#123; singleton = new Builder(context).build(); &#125; &#125; &#125; return singleton; &#125;]]></content>
   </entry>
   <entry>
     <title><![CDATA[王虎是坏蛋]]></title>
