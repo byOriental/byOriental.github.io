@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>大白杨</title>
-  
+  <icon>https://www.gravatar.com/avatar/a00f0270a63cf23fb4247f48057e13a1</icon>
   <subtitle>读经典，做好人</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://byoriental.github.io/"/>
   <updated>2018-01-06T11:38:52.161Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://byoriental.github.io/</id>
   
   <author>
     <name>baiyang</name>
-    
+    <email>goscarborough@outlook.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>夫人-山万琴</title>
-    <link href="http://yoursite.com/2018/01/05/%E6%88%91%E7%9A%84%E5%A8%98%E5%AD%90-%E5%B1%B1%E4%B8%87%E7%90%B4/"/>
-    <id>http://yoursite.com/2018/01/05/我的娘子-山万琴/</id>
+    <link href="https://byoriental.github.io/2018/01/05/%E6%88%91%E7%9A%84%E5%A8%98%E5%AD%90-%E5%B1%B1%E4%B8%87%E7%90%B4/"/>
+    <id>https://byoriental.github.io/2018/01/05/我的娘子-山万琴/</id>
     <published>2018-01-05T13:45:55.000Z</published>
     <updated>2018-01-06T11:38:52.161Z</updated>
     
@@ -34,25 +34,25 @@
     
     </summary>
     
-      <category term="歌颂山宝宝" scheme="http://yoursite.com/categories/%E6%AD%8C%E9%A2%82%E5%B1%B1%E5%AE%9D%E5%AE%9D/"/>
+      <category term="歌颂山宝宝" scheme="https://byoriental.github.io/categories/%E6%AD%8C%E9%A2%82%E5%B1%B1%E5%AE%9D%E5%AE%9D/"/>
     
     
-      <category term="美丽" scheme="http://yoursite.com/tags/%E7%BE%8E%E4%B8%BD/"/>
+      <category term="美丽" scheme="https://byoriental.github.io/tags/%E7%BE%8E%E4%B8%BD/"/>
     
-      <category term="自然" scheme="http://yoursite.com/tags/%E8%87%AA%E7%84%B6/"/>
+      <category term="自然" scheme="https://byoriental.github.io/tags/%E8%87%AA%E7%84%B6/"/>
     
-      <category term="大方" scheme="http://yoursite.com/tags/%E5%A4%A7%E6%96%B9/"/>
+      <category term="大方" scheme="https://byoriental.github.io/tags/%E5%A4%A7%E6%96%B9/"/>
     
-      <category term="贤惠" scheme="http://yoursite.com/tags/%E8%B4%A4%E6%83%A0/"/>
+      <category term="贤惠" scheme="https://byoriental.github.io/tags/%E8%B4%A4%E6%83%A0/"/>
     
-      <category term="善良" scheme="http://yoursite.com/tags/%E5%96%84%E8%89%AF/"/>
+      <category term="善良" scheme="https://byoriental.github.io/tags/%E5%96%84%E8%89%AF/"/>
     
   </entry>
   
   <entry>
     <title>王国维人生中的三种境界</title>
-    <link href="http://yoursite.com/2018/01/05/%E7%8E%8B%E5%9B%BD%E7%BB%B4%E4%BA%BA%E7%94%9F%E4%B8%AD%E7%9A%84%E4%B8%89%E7%A7%8D%E5%A2%83%E7%95%8C/"/>
-    <id>http://yoursite.com/2018/01/05/王国维人生中的三种境界/</id>
+    <link href="https://byoriental.github.io/2018/01/05/%E7%8E%8B%E5%9B%BD%E7%BB%B4%E4%BA%BA%E7%94%9F%E4%B8%AD%E7%9A%84%E4%B8%89%E7%A7%8D%E5%A2%83%E7%95%8C/"/>
+    <id>https://byoriental.github.io/2018/01/05/王国维人生中的三种境界/</id>
     <published>2018-01-05T07:09:02.000Z</published>
     <updated>2018-01-05T16:31:37.063Z</updated>
     
@@ -68,16 +68,16 @@
     
     </summary>
     
-      <category term="人生" scheme="http://yoursite.com/categories/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="https://byoriental.github.io/categories/%E4%BA%BA%E7%94%9F/"/>
     
     
-      <category term="境界" scheme="http://yoursite.com/tags/%E5%A2%83%E7%95%8C/"/>
+      <category term="境界" scheme="https://byoriental.github.io/tags/%E5%A2%83%E7%95%8C/"/>
     
-      <category term="天涯路" scheme="http://yoursite.com/tags/%E5%A4%A9%E6%B6%AF%E8%B7%AF/"/>
+      <category term="天涯路" scheme="https://byoriental.github.io/tags/%E5%A4%A9%E6%B6%AF%E8%B7%AF/"/>
     
-      <category term="不悔" scheme="http://yoursite.com/tags/%E4%B8%8D%E6%82%94/"/>
+      <category term="不悔" scheme="https://byoriental.github.io/tags/%E4%B8%8D%E6%82%94/"/>
     
-      <category term="百度" scheme="http://yoursite.com/tags/%E7%99%BE%E5%BA%A6/"/>
+      <category term="百度" scheme="https://byoriental.github.io/tags/%E7%99%BE%E5%BA%A6/"/>
     
   </entry>
   
