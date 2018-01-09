@@ -442,7 +442,18 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">public static Picasso <span class="keyword">with</span>(Context context) &#123;    </span><br><span class="line">	<span class="keyword">if</span> (singleton == null) &#123;</span><br><span class="line">		synchronized (Picasso.<span class="keyword">class</span>) &#123;</span><br><span class="line">			<span class="keyword">if</span> (singleton == null) &#123;</span><br><span class="line">				singleton = new Builder(context).build();</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;    </span><br><span class="line">		&#125;    </span><br><span class="line">		<span class="keyword">return</span> singleton;  </span><br><span class="line">		</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+        <pre><code class="python">public static Picasso with(Context context) {    
+    if (singleton == null) {
+        synchronized (Picasso.class) {
+            if (singleton == null) {
+                singleton = new Builder(context).build();
+                }
+            }    
+        }    
+        return singleton;  
+
+    }
+</code></pre>
         
     
 

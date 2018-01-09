@@ -23,13 +23,15 @@
     <published>2018-01-06T13:55:08.000Z</published>
     <updated>2018-01-06T14:04:06.214Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">public static Picasso <span class="keyword">with</span>(Context context) &#123;    </span><br><span class="line"><span class="keyword">if</span> (singleton == null) &#123;</span><br><span class="line">synchronized (Picasso.<span class="keyword">class</span>) &#123;</span><br><span class="line"><span class="keyword">if</span> (singleton == null) &#123;</span><br><span class="line">singleton = new Builder(context).build();</span><br><span class="line">&#125;</span><br><span class="line">&#125;    </span><br><span class="line">&#125;    </span><br><span class="line"><span class="keyword">return</span> singleton;  </span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<pre><code class="python">public static Picasso with(Context context) {        if (singleton == null) {        synchronized (Picasso.class) {            if (singleton == null) {                singleton = new Builder(context).build();                }            }            }            return singleton;      }</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span clas
+        &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;public static Picasso with(Context context) {    
+    if (singleton == null) {
+        synchronized (Picasso.class
       
     
     </summary>
@@ -69,7 +71,7 @@
     <published>2018-01-05T13:45:55.000Z</published>
     <updated>2018-01-06T11:38:52.161Z</updated>
     
-    <content type="html"><![CDATA[<p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。<br>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。<br><a id="more"></a></p><p>这就是我的夫人，山万琴。<br>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><pre><code>2018/1/5 21:57——记于中国上海</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。<br>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。<br><a id="more"></a></p><p>这就是我的夫人，山万琴。<br>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><p>我的夫人山万琴。</p><p>她美丽、自然、大方、贤惠、善良。</p><p>有时候爱耍脾气，像一个孩子一样的，哭着、闹着，作为她的男人的我，有时候都会为此感到无解。</p><p>可有时她忙于工作几天甚至几个星期，这时候的我这样莫名的安静又习惯不来。</p><p>看样子是已经习惯了她的哭闹，更喜欢大大咧咧有些憨厚的她最迷人。</p><p>这就是我的夫人，山万琴。</p><pre><code>                            2018/1/5 21:57——记于中国上海</code></pre>]]></content>
     
     <summary type="html">
     
