@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hi,by'blogs]]></title>
+    <url>%2F2018%2F01%2F11%2Fhi-by-blogs%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[codeTest]]></title>
     <url>%2F2018%2F01%2F06%2FcodeTest%2F</url>
     <content type="text"><![CDATA[public static Picasso with(Context context) { if (singleton == null) { synchronized (Picasso.class) { if (singleton == null) { singleton = new Builder(context).build(); } } } return singleton; }]]></content>

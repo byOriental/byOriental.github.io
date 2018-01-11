@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://byoriental.github.io/"/>
-  <updated>2018-01-06T14:04:06.214Z</updated>
+  <updated>2018-01-11T14:14:48.625Z</updated>
   <id>https://byoriental.github.io/</id>
   
   <author>
@@ -17,21 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hi,by&#39;blogs</title>
+    <link href="https://byoriental.github.io/2018/01/11/hi-by-blogs/"/>
+    <id>https://byoriental.github.io/2018/01/11/hi-by-blogs/</id>
+    <published>2018-01-11T14:14:48.000Z</published>
+    <updated>2018-01-11T14:14:48.625Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>codeTest</title>
     <link href="https://byoriental.github.io/2018/01/06/codeTest/"/>
     <id>https://byoriental.github.io/2018/01/06/codeTest/</id>
     <published>2018-01-06T13:55:08.000Z</published>
-    <updated>2018-01-06T14:04:06.214Z</updated>
+    <updated>2018-01-11T15:26:55.153Z</updated>
     
-    <content type="html"><![CDATA[<pre><code class="python">public static Picasso with(Context context) {        if (singleton == null) {        synchronized (Picasso.class) {            if (singleton == null) {                singleton = new Builder(context).build();                }            }            }            return singleton;      }</code></pre>]]></content>
+    <content type="html"><![CDATA[<pre><code class="java">public static Picasso with(Context context) {        if (singleton == null) {        synchronized (Picasso.class) {            if (singleton == null) {                singleton = new Builder(context).build();                }            }            }            return singleton;      }</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;public static Picasso with(Context context) {    
+        &lt;pre&gt;&lt;code class=&quot;java&quot;&gt;public static Picasso with(Context context) {    
     if (singleton == null) {
-        synchronized (Picasso.class
+        synchronized (Picasso.class) 
       
     
     </summary>
