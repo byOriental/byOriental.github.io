@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://byoriental.github.io/tags/index.html</loc>
+    
+    <lastmod>2018-01-18T11:01:34.668Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://byoriental.github.io/about/index.html</loc>
     
     <lastmod>2018-01-18T10:40:07.116Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>https://byoriental.github.io/categories/index.html</loc>
     
     <lastmod>2018-01-05T16:28:17.508Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://byoriental.github.io/tags/index.html</loc>
-    
-    <lastmod>2018-01-05T16:19:37.878Z</lastmod>
     
   </url>
   
