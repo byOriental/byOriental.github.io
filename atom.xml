@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>by&#39;s blogs</title>
-  <icon>https://www.gravatar.com/avatar/a00f0270a63cf23fb4247f48057e13a1</icon>
+  <icon>https://www.gravatar.com/avatar/efbce3b89ec506b40842d5b20882672c</icon>
   <subtitle>读经典，做好人</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>白杨</name>
-    <email>goscarborough@outlook.com</email>
+    <email>helloworldbybyby@gmail.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
